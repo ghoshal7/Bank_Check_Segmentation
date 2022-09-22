@@ -1,0 +1,12 @@
+path: data # dataset root dir
+train: train/images  # train images (relative to 'path') 
+val: valid/images  # val images (relative to 'path') 
+test: test/images # test images (optional)
+
+# Classes (80 COCO classes)
+nc: 4
+names:
+  0: MICR
+  1: dollar_amount
+  2: word_amount
+  3: signature
